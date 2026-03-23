@@ -4,7 +4,7 @@ This repository contains basic projects built using Object-Oriented Programming 
 
 ---
 
-## 🎓 Student Management System (OOP)
+## Student Management System (OOP)
 
 A student system using classes to manage data.
 
@@ -17,7 +17,7 @@ A student system using classes to manage data.
 
 ---
 
-## 🏦 Banking System
+##  Banking System
 
 A simple banking system using inheritance.
 
@@ -29,7 +29,7 @@ A simple banking system using inheritance.
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 - Classes and Objects  
 - Inheritance  
 - Method Overriding  
@@ -37,7 +37,7 @@ A simple banking system using inheritance.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python filename.py
