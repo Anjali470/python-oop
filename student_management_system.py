@@ -52,15 +52,19 @@ class Student:
     def get_transcript(self):
         return self.grades.copy()
 
-student1 = Student("John Doe", 20, "john@email.com")
-print(student1.courses)  # []
+def main():
+    student1 = Student("John Doe", 20, "john@email.com")
+    print(student1.courses)  # []
 
-student1.enroll_course("Python Programming")
-student1.add_grade("Python Programming", 85)
+    student1.enroll_course("Python Programming")
+    student1.add_grade("Python Programming", 85)
 
-print(student1.courses)  # ['Python Programming']
-print(student1.grades)   # {'Python Programming': 85}
-print(student1.calculate_cgpa())  # 3.0
+    print(student1.courses)  # ['Python Programming']
+    print(student1.grades)   # {'Python Programming': 85}
+    print(student1.calculate_cgpa())  # 3.0
 
-student1.display_info()
-print("Transcript:", student1.get_transcript())
+    student1.display_info()
+    print("Transcript:", student1.get_transcript())
+
+if __name__ == '__main__':
+    main()
