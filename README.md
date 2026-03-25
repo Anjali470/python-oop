@@ -27,13 +27,33 @@ A simple banking system using inheritance.
 - Savings account with interest and minimum balance
 - Current account with overdraft facility
 
----
-
 ##  Concepts Used
 - Classes and Objects  
 - Inheritance  
 - Method Overriding  
 - Encapsulation  
+
+---
+
+# Product System (Polymorphism - Python)
+
+This project demonstrates polymorphism using a Product hierarchy in Python.
+
+## Features
+
+- Base Product class using abstract methods
+- Derived classes:
+  - Electronics (18% GST)
+  - Clothing (12% GST)
+  - Grocery (5% GST)
+- Each product calculates total price differently
+
+## Concepts Used
+
+- Abstract Base Classes (ABC)
+- Inheritance
+- Method Overriding
+- Polymorphism
 
 ---
 
