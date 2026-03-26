@@ -57,6 +57,25 @@ This project demonstrates polymorphism using a Product hierarchy in Python.
 
 ---
 
+# Employee Management System (Python OOP)
+
+This project demonstrates a complete employee hierarchy using Object-Oriented Programming.
+
+## Features
+- Employee roles: Manager, Developer, Intern
+- Salary calculation using polymorphism
+- Hire, fire, and promote employees
+- Department-based filtering
+- Total payroll calculation
+
+## Concepts Used
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Composition
+
+---
+
 ## How to Run
 
 ```bash
