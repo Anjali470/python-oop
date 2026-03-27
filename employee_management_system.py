@@ -193,3 +193,26 @@ class Company:
     def display_all_employees(self):
         for e in self.__employees:
             print(e)
+
+def main():
+    company = Company()
+    emp1 = Employee("Alice", 30, "alice@mail.com", "99999", 101, "IT", 60000, datetime.date(2019, 6, 10))
+    dev1 = Developer("Bob", 27, "bob@mail.com", "88888", 102, "IT", 50000, datetime.date(2021, 1, 15), ["Python"],
+                     ["HR System"])
+    intern1 = Intern("Charlie", 22, "charlie@mail.com", "77777", 103, "IT", datetime.date(2024, 1, 1), mentor="Alice",
+                     duration=6, stipend=15000)
+
+    company.hire_employee(emp1)
+    company.hire_employee(dev1)
+    company.hire_employee(intern1)
+
+    company.display_all_employees()
+
+    print(company.calculate_total_payroll())
+
+    print(company.promote_employee(102, "Manager"))
+
+    company.display_all_employees()
+
+if __name__ == "__main__":
+    main()
